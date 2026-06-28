@@ -165,6 +165,11 @@ APIs for stock quotes, historical prices, fundamentals, and ETF data.
   - **Free tier:** Free CSV downloads; no API key required.
   - **Limitations:** No REST API — data is downloaded via URL-constructed CSV links. No real-time data.
 
+- [**FilingFirehose**](https://filingfirehose.com) — SEC filing risk-scoring API on any US stock ticker (LOW/MODERATE/ELEVATED/HIGH). Surfaces 8-K cyber incidents, dilution, restatement risk, and officer departures.
+  - **Best for:** Event-driven research and risk-screening US equities by SEC disclosure signals.
+  - **Free tier:** Free risk-score lookups via the public site; daily digest and AI per-ticker reports from $9/mo.
+  - **Limitations:** US equities only. Focused on disclosure events and risk grading rather than prices or fundamentals.
+
 ## Fixed Income & Credit
 
 APIs for bond prices, yields, credit ratings, and fixed-income analytics.
