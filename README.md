@@ -240,6 +240,11 @@ APIs for foreign exchange rates, currency conversion, and cryptocurrency market 
 - [**Messari API**](https://messari.io/api) — Crypto asset profiles, quantitative metrics, and market data with editorial research.
   - **Best for:** Fundamental crypto research and asset profiling.
   - **Free tier:** Free tier with access to asset profiles, metrics, and basic market data.
+
+- [**AgentServices**](https://agentservices.to) — Paid crypto market data APIs for AI agents with x402 micropayments. Real-time prices, onchain analytics, and DeFi metrics across 54 services.
+  - **Best for:** AI agents and LLM-powered apps that need programmatic crypto/market data with per-call pricing.
+  - **Free tier:** First calls free via x402 protocol; pay-per-call with USDC on Base (typical $0.01/call).
+  - **Limitations:** Requires x402-compatible client or agent wallet. Designed for autonomous agent consumption, not human dashboards.
   - **Limitations:** Time-series and advanced features require a paid plan.
 
 ## Derivatives & Options
