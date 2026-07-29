@@ -116,6 +116,11 @@ APIs for account aggregation, payment initiation, transaction data, and PSD2/ope
   - **Free tier:** Sandbox access; free application tier for early-stage startups.
   - **Limitations:** Production volume pricing applies. Coverage is Europe-centric.
 
+- [**open-banking.io**](https://open-banking.io/) — Certificate-free PSD2 open-banking API for account information and transaction data across European banks.
+  - **Best for:** Indie developers and small teams who need EU bank-data access without an eIDAS QWAC certificate.
+  - **Free tier:** Developer sandbox with test bank connections; paid plans from ~€3/month.
+  - **Limitations:** Focused on European (PSD2/PSR1) markets. No payment initiation (AIS only).
+
 ## Equities & ETFs
 
 APIs for stock quotes, historical prices, fundamentals, and ETF data.
