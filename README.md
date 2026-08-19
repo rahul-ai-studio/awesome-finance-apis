@@ -329,6 +329,11 @@ APIs for news feeds, social sentiment, ESG scores, and other non-traditional dat
   - **Free tier:** 100 requests/minute with OAuth; free for non-commercial use.
   - **Limitations:** Requires OAuth setup. Terms of service restrict commercial use without agreement.
 
+- [**Congress Trading Pipeline**](https://github.com/seralifatih/congress-trading-pipeline) — US House and Senate congressional stock trading disclosures (STOCK Act PTRs) as clean, deduplicated JSON, parsed directly from official government sources.
+  - **Best for:** Political trading trackers, transparency dashboards, and retail sentiment tools built on congressional disclosure data.
+  - **Free tier:** Runs on Apify's free monthly usage credit; pay-per-result pricing after that ($2–3 per 1,000 results).
+  - **Limitations:** Not real-time — House and Senate filing systems have their own disclosure lag (up to 45 days by law); House and Senate pipelines use different field names (documented in the repo).
+
 - [**Unusual Whales API**](https://docs.unusualwhales.com/) — Options flow, dark pool data, and political trading tracker.
   - **Best for:** Options flow sentiment and unusual activity monitoring.
   - **Free tier:** Limited free access; some endpoints available without subscription.
