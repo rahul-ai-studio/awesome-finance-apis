@@ -324,6 +324,11 @@ APIs for news feeds, social sentiment, ESG scores, and other non-traditional dat
   - **Free tier:** 100 requests/day; 10 articles per search.
   - **Limitations:** Low article count per query on free tier. No sentiment scoring built in.
 
+- [**GridNews**](https://gridnews.io/docs) — Financial news and company press releases over REST and streaming APIs, with ticker tags, quality scores, story clusters, and sentiment.
+  - **Best for:** Ticker-tagged market news search, story corroboration, and symbol sentiment for trading/research apps.
+  - **Free tier:** 1,000 requests/day; 2 requests/second. API key from gridnews.io.
+  - **Limitations:** Strongest coverage on US-listed names and English sources; no quotes/fundamentals. Sentiment and some filters are higher-tier.
+
 - [**Reddit API**](https://www.reddit.com/dev/api/) — Access posts and comments from financial subreddits (r/wallstreetbets, r/investing, etc.).
   - **Best for:** Retail sentiment analysis and meme-stock tracking.
   - **Free tier:** 100 requests/minute with OAuth; free for non-commercial use.
