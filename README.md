@@ -165,6 +165,11 @@ APIs for stock quotes, historical prices, fundamentals, and ETF data.
   - **Free tier:** Free CSV downloads; no API key required.
   - **Limitations:** No REST API — data is downloaded via URL-constructed CSV links. No real-time data.
 
+- [**Eulerpool**](https://eulerpool.com/developers) — Global equities and fundamentals (100,000+ securities, 90+ exchanges) plus ETFs, insider trades, 13F holdings, macro series and crypto/FX via 400+ REST endpoints.
+  - **Best for:** Global equities plus macro and alternative data in one API.
+  - **Free tier:** 100,000 requests/month; non-commercial use; delayed quotes.
+  - **Limitations:** Free tier is non-commercial and quotes are delayed; commercial use requires a paid plan from $99/month.
+
 ## Fixed Income & Credit
 
 APIs for bond prices, yields, credit ratings, and fixed-income analytics.
