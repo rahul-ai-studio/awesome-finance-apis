@@ -305,6 +305,11 @@ APIs for GDP, inflation, employment, central bank rates, and other economic indi
   - **Free tier:** Completely free; no API key required.
   - **Limitations:** Aggregator — data freshness depends on the upstream provider. Some series may have gaps.
 
+- [**Invokely**](https://invokely.ai/docs) - REST API for source-cited official statistics from the U.S., EU, Spain, and World Bank sources.
+  - **Best for:** Economic and regional indicators with source citations.
+  - **Free tier:** 500 MCP calls/month, no card; the no-account MCP trial allows 25 calls/day per IP.
+  - **Limitations:** REST data queries require Builder (€19/month, 10,000 calls), Pro (€79/month, 100,000 calls), or prepaid credits (€5/1,000 calls; €10 minimum, no expiry). Catalog lookups and CSV export are available on every plan with an API key. Full series history and CSV, Excel, and chart exports are included on all plans. Series responses return up to 5,000 points; use `from` and `to` for longer histories.
+
 ## Alternative & Sentiment Data
 
 APIs for news feeds, social sentiment, ESG scores, and other non-traditional data sources.
