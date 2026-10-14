@@ -160,6 +160,11 @@ APIs for stock quotes, historical prices, fundamentals, and ETF data.
   - **Free tier:** 1,000 requests/hour; 50 concurrent WebSocket connections for IEX real-time.
   - **Limitations:** Intraday data coverage is IEX exchange only on free tier. No international equities.
 
+- [**roic.ai**](https://www.roic.ai/) — Company fundamentals (financial statements, 90+ ratios) and earnings call transcripts for 68k+ companies, plus historical prices and an MCP server.
+  - **Best for:** Fundamental analysis and stock screening with pre-calculated ratios (ROIC, ROE, margins), plus earnings call research.
+  - **Free tier:** 5 requests/minute; 2 years of history; no credit card.
+  - **Limitations:** End-of-day prices only, no intraday data. History beyond 2 years (up to 40+ years) and edited transcripts with call audio and slides require paid plans.
+
 - [**Stooq**](https://stooq.com/) — Free historical end-of-day data for global equities, indices, and bonds (CSV download).
   - **Best for:** Bulk historical data downloads for offline analysis.
   - **Free tier:** Free CSV downloads; no API key required.
