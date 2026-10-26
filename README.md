@@ -301,6 +301,7 @@ APIs for GDP, inflation, employment, central bank rates, and other economic indi
   - **Limitations:** SDMX format. Euro area / EU focus.
 
 - [**DBnomics**](https://db.nomics.world/docs/api) — Aggregator providing a unified API to access data from 80+ statistical institutions (FRED, ECB, Eurostat, OECD, etc.).
+- [Mode VC Founder Capital & Equity Workbench](https://modevc.com/tools/) — 18 free browser-side startup calculators for founders: SAFE & option pool dilution, 409A strike price, ISO vs. NSO AMT tax, Venture Debt vs. Equity, ESOP grants, and LLM/GPU unit economics.
   - **Best for:** One-stop access to multiple global macro databases through a single API.
   - **Free tier:** Completely free; no API key required.
   - **Limitations:** Aggregator — data freshness depends on the upstream provider. Some series may have gaps.
