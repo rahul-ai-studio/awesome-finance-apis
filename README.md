@@ -155,6 +155,11 @@ APIs for stock quotes, historical prices, fundamentals, and ETF data.
   - **Free tier:** 250 requests/day; access to core financial statements and quote endpoints.
   - **Limitations:** Some bulk endpoints and international data are premium. Historical data depth varies.
 
+- [**SiftingIO**](https://sifting.io/docs) — Real-time REST/WebSocket data and historical REST data for US stocks and ETFs, forex, commodities, and crypto.
+  - **Best for:** Price charts, historical-bar research, and prototyping cross-asset data imports.
+  - **Free tier:** 10,000 REST calls/month at 60 requests/minute per market; one WebSocket connection with five symbol subscriptions; no card required.
+  - **Limitations:** Account and API key required. Free is evaluation/internal non-commercial use. History varies by instrument and interval; supported series reach 25+ years for US stocks and forex, 20+ for commodities, and 10+ for crypto.
+
 - [**Tiingo**](https://www.tiingo.com/documentation/general/overview) — End-of-day and intraday US stock data, plus news and crypto feeds.
   - **Best for:** Daily backtesting with clean, adjusted historical data going back decades.
   - **Free tier:** 1,000 requests/hour; 50 concurrent WebSocket connections for IEX real-time.
