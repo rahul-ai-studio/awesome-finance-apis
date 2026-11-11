@@ -165,6 +165,11 @@ APIs for stock quotes, historical prices, fundamentals, and ETF data.
   - **Free tier:** Free CSV downloads; no API key required.
   - **Limitations:** No REST API — data is downloaded via URL-constructed CSV links. No real-time data.
 
+- [**Quotelinks SEC Fundamentals**](https://www.quotelinks.com/api/sec-fundamentals/) — Standardized financial statements (income statement, balance sheet, cash flow; annual, quarterly and TTM), company profiles and SEC filing lists for 21,000+ companies by ticker or CIK, built nightly from SEC EDGAR.
+  - **Best for:** Fundamental screening and financial-statement analysis of SEC filers without parsing XBRL yourself.
+  - **Free tier:** No API key or sign-up needed; 2 requests/second anonymous, 10 with a free API key. CORS enabled.
+  - **Limitations:** Personal, non-commercial use only. SEC filers only; updated once a night (no real-time data).
+
 ## Fixed Income & Credit
 
 APIs for bond prices, yields, credit ratings, and fixed-income analytics.
