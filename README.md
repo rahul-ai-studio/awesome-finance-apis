@@ -189,6 +189,11 @@ APIs for bond prices, yields, credit ratings, and fixed-income analytics.
   - **Free tier:** Fully free; no API key required.
   - **Limitations:** European data only. SDMX format can be complex to parse.
 
+- [**Quotelinks Credit Market Data**](https://www.quotelinks.com/api/credit-market-data/) — U.S. credit market series from their official sources as JSON: the New York Fed Corporate Bond Market Distress Index (weekly since 2005), the U.S. Treasury HQM corporate bond yield curve (par yields and 200 spot maturities, monthly since 1984) and credit default swap market aggregates from the CFTC Weekly Swaps Report (weekly since 2012).
+  - **Best for:** Tracking corporate bond market stress, pulling the HQM corporate curve for discounting, and CDS market size and activity research.
+  - **Free tier:** No API key or sign-up needed; 2 requests/second anonymous, 10 with a free API key. CORS enabled.
+  - **Limitations:** Personal, non-commercial use only. Aggregate U.S. series only (no individual bond, issuer or CDS pricing); updated when the sources publish (weekly or monthly), not real-time.
+
 ## FX & Crypto
 
 APIs for foreign exchange rates, currency conversion, and cryptocurrency market data.
