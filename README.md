@@ -329,6 +329,11 @@ APIs for news feeds, social sentiment, ESG scores, and other non-traditional dat
   - **Free tier:** 100 requests/minute with OAuth; free for non-commercial use.
   - **Limitations:** Requires OAuth setup. Terms of service restrict commercial use without agreement.
 
+- [**Trading Signals Toolkit**](https://signals.incomefather.com) — Event-risk flags for ES futures, SEC Form 4 insider-buy alerts, and short AI trade briefs.
+  - **Best for:** Agents and apps that need event-risk and insider-filing context before a trade.
+  - **Free tier:** 100 API calls per month with a free key (no card); unused calls do not roll over.
+  - **Limitations:** Focused on event-risk, insider buys, and trade briefs rather than full-universe quotes or historical OHLCV. Pay-per-call (USDC on Base via x402) or paid plans after the free cap.
+
 - [**Unusual Whales API**](https://docs.unusualwhales.com/) — Options flow, dark pool data, and political trading tracker.
   - **Best for:** Options flow sentiment and unusual activity monitoring.
   - **Free tier:** Limited free access; some endpoints available without subscription.
