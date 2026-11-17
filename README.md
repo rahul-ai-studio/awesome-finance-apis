@@ -195,6 +195,11 @@ APIs for foreign exchange rates, currency conversion, and cryptocurrency market 
 
 ### Foreign Exchange
 
+- [**Crystal Ball Markets Rates API**](https://crystalballmarkets.com/markets/rates-api) — Three JSON files refreshed every minute: exchange rates for 60 currencies against USD, the gold price in local currency and units for 69 countries, and live broker quotes for forex, metals, energy, indices, shares and crypto.
+  - **Best for:** Currency converters, exchange rate tables and local gold price widgets on websites and apps.
+  - **Free tier:** Free with no sign-up or card; up to 60 requests a minute per address; responses should be cached for at least 60 seconds.
+  - **Limitations:** A visible credit link is required wherever the figures are shown; server-side calls must name a page on your own domain and send a self-chosen key; no historical endpoint; figures are indicative.
+
 - [**Exchange Rates API (exchangerate.host / exchangerate-api.com)**](https://exchangerate.host/) — Simple JSON API for historical and current FX rates sourced from ECB and other providers.
   - **Best for:** Currency conversion and historical FX rate lookups.
   - **Free tier:** Varies by provider — exchangerate.host offers free access; exchangerate-api.com offers 1,500 requests/month free.
